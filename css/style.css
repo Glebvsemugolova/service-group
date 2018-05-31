@@ -1,0 +1,139 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.wrapper {
+  width: 990px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 110px;
+
+  text-transform: uppercase;
+  color: #898989;
+}
+
+.city-select__list {
+  font-weight: bold;
+
+  border: none;
+  outline: none;
+}
+
+.header__form {
+  /*display: flex;*/
+
+}
+.city-select__title,
+.city-select__list {
+  display: inline-block;
+
+  color: #898989;
+}
+
+.header__tel-number {
+  font-size: 34px;
+  line-height: 22px;
+  font-weight: 300;
+}
+
+
+
+.feedback {
+  color: #ffffff;
+
+  background-color: #80c340;
+}
+
+.feedback__wrapper {
+  position: relative;
+
+  padding-top: 40px;
+  padding-bottom: 265px;
+
+  text-align: center;
+}
+
+.contact-us__title {
+  margin: 0;
+
+  font-size: 44px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.contact-us__subtitle {
+  display: block;
+  margin-top: 15px;
+
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.contact-us__tel-number {
+  display: block;
+  margin: 25px auto 20px auto;
+
+  vertical-align: middle;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: #898989;
+
+  border: none;
+}
+
+.contact-us__tel-number:focus::placeholder {
+  font-size: 0;
+}
+
+.contact-us__btn {
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 21px;
+
+  background-color: transparent;
+
+  border: 2px solid #ffffff;
+}
+
+.contact-us__tel-number,
+.contact-us__btn {
+  width: 436px;
+  height: 50px;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+}
+
+.images-block {
+  position: absolute;
+  bottom: 0;
+
+  display: flex;
+  justify-content: space-between;
+  min-height: 310px;
+  width: 990px;
+  padding-left: 45px;
+}
+
+.images-block__mobile {
+  align-self: flex-end;
+}
+
+.images-block__tablet {
+  align-self: center;
+  margin-top: 40px;
+}
+
+.images-block__desktop {
+  align-self: flex-start;
+}
