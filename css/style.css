@@ -94,6 +94,7 @@ select::-ms-expand {
   font-size: 20px;
   line-height: 22px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .contact-us__tel-number {
