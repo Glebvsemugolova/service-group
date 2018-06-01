@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Service-group test</title>
@@ -14,7 +14,7 @@
         <img src="img/acer-logo.png" alt="Acer">
       </a>
       <form action="#" class="header__form city-select" method="post">
-        <p class="city-select__title">Ваш город</p>
+        <p class="city-select__title">Ваш город:</p>
         <select name="city" id="city" class="city-select__list">
           <option value="САНКТ-ПЕТЕРБУРГ">САНКТ-ПЕТЕРБУРГ</option>
           <option value="МОСКВА">МОСКВА</option>
@@ -36,11 +36,6 @@
             <button class="contact-us__btn" type="submit">Обратиться в сервисный центр</button>
           </form>
         </section>
-        <div class="feedback__images-block images-block">
-          <img src="img/mobile.png" alt="mobile" class="images-block__mobile" width="207" height="163">
-          <img src="img/tablet.png" alt="tablet" class="images-block__tablet" width="282" height="189">
-          <img src="img/desktop.png" alt="desktop" class="images-block__desktop" width="287" height="213">
-        </div>
       </div>
     </div>
     <div class="main__advantages advantages">
@@ -65,19 +60,19 @@
         <ul class="services__list">
           <li class="services__item">
             <a href="#">
-              <h4 class="services__item-title">Смартфоны</h4>
+              <h3 class="services__item-title">Смартфоны</h3>
               <img src="img/service_mobile.png" alt="Смартфоны" class="services__item-picture" width="189" height="184">
             </a>
           </li>
           <li class="services__item">
             <a href="#">
-              <h4 class="services__item-title">Ноутбуки</h4>
+              <h3 class="services__item-title">Ноутбуки</h3>
               <img src="img/service_laptop.png" alt="Ноутбуки" class="services__item-picture" width="286" height="194">
             </a>
           </li>
           <li class="services__item">
             <a href="#">
-              <h4 class="services__item-title">Планшеты</h4>
+              <h3 class="services__item-title">Планшеты</h3>
               <img src="img/service_tablet.png" alt="Планшеты" class="services__item-picture" width="267" height="171">
             </a>
           </li>
@@ -107,36 +102,35 @@
       </article>
       <section class="main__scheme-of-work scheme-of-work">
         <h2 class="scheme-of-work__title">Схема работы</h2>
-        <img src="img/decoration.png" width="967" height="235" alt="Декорации" class="scheme-of-work__decoration">
         <ul class="scheme-of-work__list work-list">
           <li class="work-list__item">
-            <h3 class="work-list__item-title">Заявка на ремонт</h3>
+            <h4 class="work-list__item-title">Заявка на ремонт</h4>
             <p class="work-list__item-info">
               Вы <a href="#">оставляете заявку</a> на сайтем или звоните по телефону
             </p>
           </li>
           <li class="work-list__item">
-            <h3 class="work-list__item-title">Согласование</h3>
+            <h4 class="work-list__item-title">Согласование</h4>
             <p class="work-list__item-info">
               Опертаор, консультирует, оформляет заявку
             </p>
           </li>
           <li class="work-list__item">
-            <h3 class="work-list__item-title">Диагностика</h3>
+            <h4 class="work-list__item-title">Диагностика</h4>
             <p class="work-list__item-info">
-              Мы отправляем курьера за устройством или вы привозите устройство самостоятельно.
-              Делаем диагностику и озвучиваем стоимость работы
+              Мы отправляем курьера за устройством или Вы привозите устройство самостоятельно.<br>
+              Делаем диагностику и озвучиваем<br> стоимость работы
             </p>
           </li>
           <li class="work-list__item">
-            <h3 class="work-list__item-title">Ремонт</h3>
+            <h4 class="work-list__item-title">Ремонт</h4>
             <p class="work-list__item-info">
               Если стоимость Вас устравивает, мастер назначает срок и приступает к ремонту.
               За диагностику и вызов курьера платить не нужно.
             </p>
           </li>
           <li class="work-list__item">
-            <h3 class="work-list__item-title">Итог</h3>
+            <h4 class="work-list__item-title">Итог</h4>
             <p class="work-list__item-info">
               Как только устройство будет отремонтировано, оператор с Вами свяжется
               для согласовнаия удобного времени и места доставки
@@ -144,18 +138,45 @@
           </li>
         </ul>
       </section>
+      <div class="main__warning warning">
+        <h4 class="warning__title">Внимание</h4>
+        <p class="warning__info">
+          Мы составляем договор на оказание услуг с каждым клиентом.<br>
+          Вы не рискуете быть обманутыми
+        </p>
+      </div>
+      <section class="main__reviews reviews">
+        <h2 class="reviews__title">Отзывы о сервисном центре</h2>
+        <input type="radio" class="reviews__input" id="radio1">
+        <input type="radio" class="reviews__input" id="radio2">
+        <label for="radio1" class="reviews__label-left"></label>
+        <label for="radio2" class="reviews__label-right"></label>
+        <ul class="reviews__list">
+          <li class="reviews__item"><a href="#"><img src="img/review.png" width="145" height="145" alt="review"></a></li>
+          <li class="reviews__item"><a href="#"><img src="img/review.png" width="145" height="145" alt="review"></a></li>
+          <li class="reviews__item"><a href="#"><img src="img/review.png" width="145" height="145" alt="review"></a></li>
+          <li class="reviews__item"><a href="#"><img src="img/review.png" width="145" height="145" alt="review"></a></li>
+          <li class="reviews__item"><a href="#"><img src="img/review.png" width="145" height="145" alt="review"></a></li>
+        </ul>
+      </section>
     </div>
-    <div class="main__feedback feedback">
-      <div class="feedback__contact-us contact-us">
-        <span class="contact-us__subtitle">Если у вас остались вопросы - оставьте заявку и мы перезвоним вам в течение 5 минут:</span>
-        <form action="#" class="contact-us__form" method="post">
-          <input type="tel" class="contact-us__tel-number" placeholder="ВАШ ТЕЛЕФОН*">
-          <button class="contact-us__btn" type="submit">Обратиться в сервисный центр</button>
-        </form>
+
+
+    <div class="main__bottom-feedback feedback">
+      <div class="main__feedback-wrapper wrapper">
+        <div class="feedback__image-block">
+          <img src="img/hand.png" alt="mobile" class="image-block__picture" width="304" height="408">
+        </div>
+        <div class="feedback__contact-us contact-us">
+          <span class="contact-us__subtitle">Если у вас остались вопросы - оставьте заявку и мы перезвоним вам в течение 5 минут:</span>
+          <form action="#" class="contact-us__form" method="post">
+            <input type="tel" class="contact-us__tel-number" placeholder="ВАШ ТЕЛЕФОН*">
+            <button class="contact-us__btn" type="submit">Обратиться в сервисный центр</button>
+          </form>
+        </div>
+
       </div>
-      <div class="feedback__image-block image-block">
-        <img src="img/mobile.png" alt="mobile" class="image-block__picture" width="207" height="163">
-      </div>
+
     </div>
 
   </main>
@@ -179,6 +200,9 @@
           <img src="img/map.png" width="254" height="155" alt="Расположение на карте">
         </a>
       </div>
+    </div>
+    <div class="footer__offer">
+      <span>*Информация, размещенная на сайте, не является публичной офертой и носит ознакомительный характер. Цены указаны за услугу, запчасти в стоимость не входят.</span>
     </div>
 
   </footer>
